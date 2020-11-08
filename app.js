@@ -11,7 +11,7 @@ $('document').ready(() => {
         let num1 = $('#num1').val();
         let num2 = $('#num2').val();
         if(num1 === "" || num2 === "") {
-            alert('please enter a 2 seperate numbers to begin.');
+            alert('please enter 2 seperate numbers to begin.');
         } else startChain(num1, num2);
     });
 });
